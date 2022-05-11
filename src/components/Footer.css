@@ -1,0 +1,22 @@
+.footer-container{
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+
+}
+.footer-wrapper{
+  display: flex;
+  flex-flow: column;
+}
+.footer-wrapper > img{  
+  margin: auto;
+  width: 350px;
+  height: 95px;
+
+
+}
+.footer-wrapper > .icons, i{
+  color: #000000;
+  justify-content: center;
+  text-align: center;
+}

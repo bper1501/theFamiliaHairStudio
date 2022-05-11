@@ -1,0 +1,37 @@
+.navbar {
+  background: #ffff;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  max-width: 1500px;
+}
+
+.navbar-logo {
+  justify-self: start;
+  margin-left: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 125px;
+  width: 250px;
+}
+.nav-menu {
+  display: grid;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: end;
+  margin-right: 2rem;
+}

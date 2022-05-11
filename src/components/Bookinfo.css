@@ -1,0 +1,17 @@
+.steps-container{
+  display: flex;
+  justify-content: center;
+  background-color: #EBEBEB;
+}
+.shadow{
+  width: 600px;
+  height: 200px;
+  padding-top: 2%;
+  margin: 15px;
+  background-color: #181818;
+  opacity: 50%;
+  color: #ffff;
+  border-radius: 10px;
+  text-align: center;
+
+}
