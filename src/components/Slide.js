@@ -9,14 +9,14 @@ function Slide(images = [], autoPlay = true, autoPlayTime = 15000, ...props) {
 
   useEffect(() =>{
     const timer = setTimeout(() => {
-      console.log("currentSlide", currentSlide)
       const newSlideIndex = currentSlide > images.length - 2 ? 0 : currentSlide + 1;
       
       setCurrentSlide(newSlideIndex)
     }, autoPlayTime);
     
     return () => clearTimeout(timer);
-  }, [currentSlide])
+    
+  },[ currentSlide, autoPlayTime, images.length]) 
   
   return (
     <>
