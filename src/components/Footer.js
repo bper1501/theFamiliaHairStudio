@@ -9,7 +9,7 @@ function Footer() {
           <img src="/logo.svg" alt="logo-img" />
           <div className="icons">
             <a href="https://www.instagram.com/thefamiliahairstudio/?hl=en" target="_blank" rel="noreferrer">
-              <i className="fab fa-instagram fa-4x"></i>
+              <i className="fab fa-instagram fa-2x"></i>
             </a>
             <h4>21 E 26th St 
               Minneapolis MN 55404</h4>
