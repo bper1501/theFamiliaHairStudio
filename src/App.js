@@ -4,7 +4,9 @@ import Navbar from './components/Navbar';
 import Slide from './components/Slide';
 import Bookinfo from './components/Bookinfo';
 import Team from './components/Team'
+import FramerSlide from './components/FramerSlide';
 import Footer from './components/Footer';
+
 
 
 function App() {
@@ -14,10 +16,13 @@ function App() {
       <Slide/>
       <Bookinfo />
       <Team/>
+      <FramerSlide/>
       <Footer/>
+      
     </>
     
   );
 }
+
 
 export default App;
