@@ -5,4 +5,5 @@ import image4 from '../assets/TheFamiliaIGimg4.jpg';
 import image5 from '../assets/TheFamiliaIGimg5.jpg';
 import image6 from '../assets/TheFamiliaIGimg6.jpg';
 
-export default [image1, image2,image3,image4,image5,image6]
+ let images = [image1, image2,image3,image4,image5,image6];
+export default images;
